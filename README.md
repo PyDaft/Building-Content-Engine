@@ -101,4 +101,10 @@ Built by Abhineet Gupta (Abhi), GTM and product consultant, with Claude.
 
 ## License
 
-Copyright (c) 2026 Abhineet Gupta. All rights reserved. You may view and download this repository for personal reference. Copying, modifying, redistributing or commercial use needs written permission. See [LICENSE](LICENSE).
+[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), with one added permission.
+
+- **You can** use, share and adapt the skills, templates and images, with credit to "Content Engine by Abhineet Gupta" and a link to this repo.
+- **You can** use the engine to write and publish your own content, including paid newsletters and monetized blogs.
+- **You need written permission** to sell it, resell it, or offer it, or anything built on it, to others as a product or paid service.
+
+See [LICENSE](LICENSE) for the full terms.

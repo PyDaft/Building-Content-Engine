@@ -1,14 +1,27 @@
-Copyright (c) 2026 Abhineet Gupta. All rights reserved.
+Content Engine
+Copyright (c) 2026 Abhineet Gupta
 
-This repository is published for viewing and personal reference only.
+This work is licensed under the Creative Commons Attribution-NonCommercial 4.0
+International License (CC BY-NC 4.0).
 
-You may view the contents and download a copy for your own private reading.
+Full legal text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+Summary:         https://creativecommons.org/licenses/by-nc/4.0/
 
-You may not copy, modify, merge, publish, distribute, sublicense, sell, or use any part of
-this repository, including its text, prompts, skill outlines, images and diagrams, for any
-commercial or non-commercial purpose without prior written permission from the copyright
-holder.
+In short, you may share and adapt this work if you:
+  - give credit: "Content Engine by Abhineet Gupta (github.com/PyDaft/content-engine)",
+    with a link to this license and a note of any changes you made; and
+  - do not use it for commercial purposes.
+
+ADDITIONAL PERMISSION (granted by the copyright holder, beyond CC BY-NC 4.0)
+
+You may use this engine to research, write and publish your own content, including
+on paid newsletters, monetized blogs and other publications you own or write for.
+That use does not count as "commercial" for the purposes of this license.
+
+Still not permitted without written permission: selling, reselling or sublicensing
+this work or adaptations of it, or offering it, or a service or product built on it,
+to others for a fee (for example as a paid template, course, SaaS feature, or agency
+or consulting deliverable).
 
 Third-party names and products mentioned belong to their owners.
-
-THE CONTENTS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+The work is provided "as is", without warranty of any kind.
