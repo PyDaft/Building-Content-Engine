@@ -6,9 +6,23 @@ I built it to run my own Medium blog on GTM, product management and enterprise A
 
 It runs on Claude skills and scheduled tasks, with Google Drive and Google Docs as the workspace.
 
-![How the engine runs](docs/images/architecture.png)
+## Agent architecture
+
+![Agent architecture](docs/images/agent-architecture.png)
+
+The engine has five parts. Read the image left to right:
+
+| Part | What it is | Why it is built this way |
+|---|---|---|
+| 1. Triggers | Claude scheduled tasks: optional feeders, the topic proposal, the draft run | Writing on a schedule is the point; each run is unattended |
+| 2. Claude agent session | A fresh session per run that loads the skills it needs and works through plan, research, verify, write, check | Skills keep the instructions versioned and reusable; a fresh session keeps runs independent |
+| 3. Tools and connectors | Web search and fetch, Google Drive, Google Docs, a diagram renderer, notifications | Each tool does one job; the agent combines them per task |
+| 4. Workspace | Google Drive: config, feeder sheets, tracker, the monthly drafts doc, diagrams, published log | Runs have no memory of each other, so everything they share lives here |
+| 5. You | Approve in the proposals tab, review in the draft tab, publish | The engine proposes and drafts; you decide and publish |
 
 ## How a day runs
+
+![Daily flow](docs/images/daily-flow.png)
 
 | Time | What happens | Who |
 |---|---|---|
@@ -31,7 +45,7 @@ tasks/               the two scheduled task prompts, with placeholders
 config/              publication settings, sources, diagram design system
 tracker/             layout of the Published and Backlog tracker sheet
 examples/diagrams/   sample diagrams from a real draft
-docs/images/         the architecture image above
+docs/images/         agent architecture and daily flow images
 ```
 
 Every folder in `skills/` is a complete Claude skill (`SKILL.md`). The README is the front page of the whole repo; each `SKILL.md` is the instruction file Claude actually loads when that skill runs.
