@@ -97,7 +97,7 @@ v0.3, October 2026. Running daily on my Medium blog. Next: placing images in the
 
 ## About
 
-Built by Abhineet Gupta (Abhi), GTM and product consultant, with Claude.
+Built by Abhineet Gupta (Abhi), AI drive GTM, Product Marketing, Growth and Product consultant.
 
 ## License
 
